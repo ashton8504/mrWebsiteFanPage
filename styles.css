@@ -1,39 +1,36 @@
+/* Global Styles */
 * {
    box-sizing: border-box;
-}
-
-body {
+ }
+ 
+ body {
    background-color: #f0f0f0;
    color: #333;
    font-family: Arial, sans-serif;
    text-align: center;
    margin: 0;
    padding: 0;
-}
-
-header {
+ }
+ 
+ /* Header Styles */
+ header {
    background-color: #333;
    color: #fff;
    padding: 10px;
-}
-
-.page-heading{
+ }
+ 
+ .page-heading {
    font-size: 36px;
    color: #fff;
    transition: color 0.3s ease-in-out;
-}
-
-.page-heading:hover{
+ }
+ 
+ .page-heading:hover {
    color: #007bff;
-}
-
-.section-heading {
-   text-decoration: underline;
-   text-shadow: 2px 2px 4px rgba(128, 126, 126, 0.5);
-}
-
-/* Style the Navigation Links */
-nav ul {
+ }
+ 
+ /* Navigation Styles */
+ nav ul {
    list-style: none;
    margin: 0;
    padding: 0;
@@ -41,57 +38,55 @@ nav ul {
    margin-right: 20px;
    font-weight: bold;
    font-size: 23px;
-}
-
-nav li {
+ }
+ 
+ nav li {
    display: inline;
    margin-left: 20px;
-}
-
-nav a {
+ }
+ 
+ nav a {
    text-decoration: none;
    transition: color 0.3s ease-in-out;
-   font-family:  Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
    color: #fff;
-}
-
-nav a:hover {
+ }
+ 
+ nav a:hover {
    text-decoration: underline;
    color: #007bff;
-}
-
-.page-heading {
-   margin: 0;
-}
-
-main {
+ }
+ 
+ /* Main Content Styles */
+ main {
    padding: 20px;
-}
-
-.mr-website-image {
+ }
+ 
+ .mr-website-image {
    max-width: 100%;
    border: 1px solid #333;
    border-radius: 10px;
    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.2);
-   transition:  transform 0.3s ease-in-out;
-}
-
-.mr-website-image:hover{
+   transition: transform 0.3s ease-in-out;
+ }
+ 
+ .mr-website-image:hover {
    transform: scale(1.05);
    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.3);
-}
-
-.section-heading {
+ }
+ 
+ .section-heading {
    text-decoration: underline;
-}
-
-/* Style the table container */
-#facts-section{
-   border-collapse: col;
+   text-shadow: 2px 2px 4px rgba(128, 126, 126, 0.5);
+ }
+ 
+ /* Table Styles */
+ #facts-section {
+   border-collapse: collapse;
    border-radius: 40px;
-}
-
-table {
+ }
+ 
+ table {
    width: 40%;
    margin: 0 auto;
    border-collapse: separate;
@@ -99,87 +94,107 @@ table {
    background-color: #f5f5f5;
    border-radius: 10px;
    box-shadow: 0 7px 4px rgba(0, 0, 0, 0.2);
-}
-
-th {
+ }
+ 
+ th {
    background-color: #333;
    color: #fff;
    padding: 12px;
    text-align: center;
-}
-
-td {
+ }
+ 
+ td {
    background-color: #fff;
-   padding: 8px;
    padding: 12px;
    text-align: center;
-}
-
-blockquote {
+ }
+ 
+ /* Quote Styles */
+ blockquote {
    font-style: italic;
    margin: 10px 0;
-}
-
-/* Styles for links at bottom of page */
-ul {
+ }
+ 
+ /* List Styles */
+ ul {
    list-style-type: none;
    padding: 0;
-}
-
-li {
+ }
+ 
+ li {
    margin-bottom: 10px;
-}
-
-a{
-   text-decoration: none;
-   display: block;
-   padding: 10px 0;
+ }
+ 
+ /* Links Styles */
+ #links-container {
+   display: inline-block;
+   padding: 10px 20px;
    background-color: #007bff;
    color: #fff;
    border-radius: 5px;
-   width: 20%;
-   margin: 0 auto;
-}
-
-a:hover{
+   font-size: 24px;
+   text-align: center;
+   transition: background-color 0.3s ease-in-out;
+ }
+ 
+ #links-container:hover {
    background-color: #0056b3;
-}
-
-
-/* ABOUT MY STYLES */
-
-form{
+   color: #fff;
+ }
+ 
+ #links-section ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ #links-section li {
+   margin-bottom: 10px;
+ }
+ 
+ #links-section a {
+   text-decoration: none;
+   color: #007bff;
+   font-weight: bold;
+   transition: color 0.3s ease-in-out;
+ }
+ 
+ #links-section a:hover {
+   color: #0056b3;
+ }
+ 
+ /* Info Form Styles */
+ form {
    background-color: #fff;
    padding: 20px;
    border-radius: 10px;
    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.2);
    width: 50%;
    margin: 0 auto;
-}
-
-label{
+ }
+ 
+ label {
    display: block;
    margin-top: 10px;
-}
-
-input{
+ }
+ 
+ input {
    width: 60%;
    padding: 10px;
    margin-top: 5px;
    border: 1px solid #ccc;
    border-radius: 5px;
-}
-
-textarea#comments{
+ }
+ 
+ textarea#comments {
    width: 60%;
    padding: 10px;
    margin-top: 5px;
    border: 1px solid #ccc;
    border-radius: 5px;
    resize: vertical;
-}
-
-button {
+ }
+ 
+ button {
    background-color: #007bff;
    color: #fff;
    font-weight: bold;
@@ -190,8 +205,9 @@ button {
    margin-top: 5px;
    border: 1px solid #ccc;
    border-radius: 5px;
-}
-
-button:hover{
+ }
+ 
+ button:hover {
    background-color: #0056b3;
-}
+ }
+ 
