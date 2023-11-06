@@ -19,7 +19,12 @@ header {
 
 .page-heading{
    font-size: 36px;
-   animation: pop 1s infinite alternate;
+   color: #fff;
+   transition: color 0.3s ease-in-out;
+}
+
+.page-heading:hover{
+   color: #007bff;
 }
 
 .section-heading {
@@ -120,16 +125,4 @@ ul {
 
 li {
    margin-bottom: 10px;
-}
-
-
-/* Animations */
-
-@keyframes pop{
-   0% {
-      transform: scale(1);
-   }
-   100%{
-      transform: scale(1.1);
-   }
 }
