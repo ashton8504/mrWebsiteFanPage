@@ -120,6 +120,7 @@ blockquote {
    margin: 10px 0;
 }
 
+/* Styles for links at bottom of page */
 ul {
    list-style-type: none;
    padding: 0;
@@ -127,6 +128,21 @@ ul {
 
 li {
    margin-bottom: 10px;
+}
+
+a{
+   text-decoration: none;
+   display: block;
+   padding: 10px 0;
+   background-color: #007bff;
+   color: #fff;
+   border-radius: 5px;
+   width: 20%;
+   margin: 0 auto;
+}
+
+a:hover{
+   background-color: #0056b3;
 }
 
 
