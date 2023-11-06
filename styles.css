@@ -152,6 +152,15 @@ input{
    border-radius: 5px;
 }
 
+textarea#comments{
+   width: 60%;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   resize: vertical;
+}
+
 button {
    background-color: #007bff;
    color: #fff;
